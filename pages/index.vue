@@ -280,7 +280,7 @@
         </section>
 
         <!--Illustrations-->
-        <section id="about" class="mb-20 scroll-mt-24 relative">
+        <section id="illustrations" class="mb-20 scroll-mt-24 relative">
             <h2 class="text-3xl font-bold mb-8">Illustrations</h2>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
