@@ -341,7 +341,7 @@ const illustrations = [
     { title: 'Watson Amelia', image: '/MyPortfolio/MyPortfolio/ame1.png' },
     { title: "Ninomae Ina'Nis", image: '/MyPortfolio/MyPortfolio/ina1.jpeg' },
     { title: 'Suisei Hoshimachi', image: '/MyPortfolio/MyPortfolio/sui1.jpeg' },
-    { title: 'Casual Ina', image: '/MyPortfolio/MyPorfolio/ina2.jpeg' },
+    { title: 'Casual Ina', image: '/MyPortfolio/MyPortfolio/ina2.jpeg' },
 ];
 
 const selectedImage = ref(null);
