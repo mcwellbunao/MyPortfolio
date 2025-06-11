@@ -4,7 +4,8 @@ export default defineNuxtConfig({
     preset: 'static'
   },
   app: {
-    baseURL: '/MyPortfolio/', // your repo name
+    baseURL: '/MyPortfolio/',
+    buildAssetsDir: '/MyPortfolio/_nuxt/',
   },
   css: ['@/assets/styles.css'],
   modules: ['@nuxtjs/tailwindcss'],
