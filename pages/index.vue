@@ -121,7 +121,7 @@
                     <div v-if="selectedProject == 1" class="flex flex-col gap-4">
                         <!-- Project Header -->
                         <div class="flex items-center gap-4">
-                            <img src="../assets/images/ifmslogo.png" alt="IFMS Logo"
+                            <img src="/MyPortfolio/ifmslogo.png" alt="IFMS Logo"
                                 class="h-16 w-auto rounded shadow-md transition-transform duration-500 hover:scale-105" />
                             <div>
                                 <h3 class="text-xl font-semibold text-white">Gatekeeper Project</h3>
@@ -162,7 +162,7 @@
                         <!-- Project Header -->
                         <div class="flex items-center gap-4">
                             <!-- Placeholder for logo -->
-                            <img src="../assets/images/VPANEWLOGO.png" alt="IFMS Logo"
+                            <img src="/MyPortfolio/VPANEWLOGO.png" alt="IFMS Logo"
                                 class="h-16 w-auto rounded shadow-md transition-transform duration-500 hover:scale-105" />
                             <div>
                                 <h3 class="text-xl font-semibold text-white">VPA – Vendor Performance Appraisal</h3>
@@ -199,7 +199,7 @@
                         <!-- Project Header -->
                         <div class="flex items-center gap-4">
                             <!-- Placeholder for logo -->
-                            <img src="../assets/images/ASOALOGOv2.png" alt="IFMS Logo"
+                            <img src="/MyPortfolio/ASOALOGOv2.png" alt="IFMS Logo"
                                 class="h-16 w-auto rounded shadow-md transition-transform duration-500 hover:scale-105" />
                             <div>
                                 <h3 class="text-xl font-semibold text-white">SOA – Statement of Account for Trucking
@@ -243,7 +243,7 @@
                         <div class="flex items-center gap-4">
                             <!-- Placeholder for logo -->
 
-                            <img src="../assets/images/nestinglogo.png" alt="IFMS Logo"
+                            <img src="/MyPortfolio/nestinglogo.png" alt="IFMS Logo"
                                 class="h-16 w-auto rounded shadow-md transition-transform duration-500 hover:scale-105" />
                             <div>
                                 <h3 class="text-xl font-semibold text-white">OBNS – Onboarding and Nesting System</h3>
