@@ -5,13 +5,12 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss'],
 
   // ❗️Change this:
-  ssr: false, // disable server-side rendering
+  ssr: true, // disable server-side rendering
 
   // ✅ Add this:
   nitro: {
     preset: 'static'
   },
-
   app: {
     baseURL: '/MyPortfolio/',
   }
