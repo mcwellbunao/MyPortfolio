@@ -1,21 +1,11 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2025-05-15',
-  devtools: { enabled: false },
-  css: [
-    '@/assets/styles.css'
-  ],
-  modules: [
-    '@nuxtjs/tailwindcss',
-  ],
-  ssr: true,
-  router: {
-    options: {
-      hashMode: false
-    }
+  ssr: false,
+  nitro: {
+    preset: 'static'
   },
-
   app: {
-    baseURL: '/MyPortfolio/',
-  }
+    baseURL: '/MyPortfolio/', // your repo name
+  },
+  css: ['@/assets/styles.css'],
+  modules: ['@nuxtjs/tailwindcss'],
 })
