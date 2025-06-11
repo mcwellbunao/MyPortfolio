@@ -5,8 +5,13 @@ export default defineNuxtConfig({
   },
   app: {
     baseURL: '/MyPortfolio/',
-    buildAssetsDir: '/MyPortfolio/_nuxt/',
+    buildAssetsDir: '_nuxt/',
   },
   css: ['@/assets/styles.css'],
   modules: ['@nuxtjs/tailwindcss'],
+  vite: {
+    define: {
+      'process.env': {}
+    }
+  }
 })
